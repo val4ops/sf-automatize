@@ -16,6 +16,8 @@ echo "Workspace directory set to $WORKSPACE_DIR."
 
 # List the contents of the stable-diffusion-webui directory and write to a file
 ls -l "$WORKSPACE_DIR/stable-diffusion-webui" > "$WORKSPACE_DIR/workspace_contents.txt"
+ls -l "$WORKSPACE_DIR/stable-diffusion-webui/models" > "$WORKSPACE_DIR/workspace_contents.txt"
+ls -l "$WORKSPACE_DIR/stable-diffusion-webui/extensions" > "$WORKSPACE_DIR/workspace_contents.txt"
 
 # Create the necessary directories
 mkdir -p "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion"
