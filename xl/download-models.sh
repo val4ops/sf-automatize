@@ -12,5 +12,6 @@
 #git clone https://github.com/Bing-su/adetailer.git /workspace/stable-diffusion-webui/extensions/adetailer;
 
 # ControlNet Model
+mkdir -p /workspace/stable-diffusion-webui/models/ControlNet/
 wget -O /workspace/stable-diffusion-webui/models/ControlNet/diffusers_xl_depth_full.safetensors https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_full.safetensors?download=true;
 
