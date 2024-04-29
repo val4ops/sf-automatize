@@ -13,6 +13,10 @@ else
 fi
 echo "Workspace directory set to $WORKSPACE_DIR."
 
+
+# List the contents of the stable-diffusion-webui directory and write to a file
+ls -l "$WORKSPACE_DIR/stable-diffusion-webui" > "$WORKSPACE_DIR/workspace_contents.txt"
+
 # Create the necessary directories
 mkdir -p "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion"
 echo "Created directory for Stable-diffusion models."
@@ -29,14 +33,8 @@ fi
 
 # Models to download
 echo "Starting to download models..."
-#wget -O "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion/realvisionv6.safetensors" https://civitai.com/api/download/models/245598
-#echo "Downloaded realvisionv6.safetensors model."
-#wget -O "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion/realvisionv6_inpaint.safetensors" https://civitai.com/api/download/models/245627
-#echo "Downloaded realvisionv6_inpaint.safetensors model."
 wget -O "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion/realvisxlv4.safetensors" https://civitai.com/api/download/models/361593
 echo "Downloaded realvisxlv4.safetensors model."
-#wget -O "$WORKSPACE_DIR/stable-diffusion-webui/models/Stable-diffusion/realvisxlv4_inpaint.safetensors" https://civitai.com/api/download/models/297320
-#echo "Downloaded realvisxlv4_inpaint.safetensors model."
 
 # Extensions
 echo "Cloning extensions..."
@@ -50,3 +48,4 @@ echo "Cloned adetailer extension."
 # ControlNet Model
 wget -O "$WORKSPACE_DIR/stable-diffusion-webui/models/ControlNet/diffusers_xl_depth_full.safetensors" https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_full.safetensors?download=true
 echo "Downloaded ControlNet model."
+
