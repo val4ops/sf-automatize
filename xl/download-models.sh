@@ -58,35 +58,44 @@ PIP_PACKAGES=(
   )
 
 EXTENSIONS=(
-    "https://github.com/Mikubill/sd-webui-controlnet"
-    #"https://github.com/d8ahazard/sd_dreambooth_extension"
-    #"https://github.com/deforum-art/sd-webui-deforum"
-    #"https://github.com/adieyal/sd-dynamic-prompts"
-    #"https://github.com/ototadana/sd-face-editor"
+    "https://github.com/d8ahazard/sd_dreambooth_extension"
+    "https://github.com/deforum-art/sd-webui-deforum"
+    "https://github.com/adieyal/sd-dynamic-prompts"
+    "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    #"https://github.com/hako-mikan/sd-webui-regional-prompter"
-    #"https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/fkunn1326/openpose-editor"
-    #"https://github.com/Gourieff/sd-webui-reactor"
+    "https://github.com/hako-mikan/sd-webui-regional-prompter"
+    "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+    "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/ahgsql/StyleSelectorXL.git"
     "https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper.git"
+    "https://github.com/richrobber2/canvas-zoom.git"    
+    "https://github.com/fkunn1326/openpose-editor"
+    "https://github.com/vladmandic/sd-extension-steps-animation.git"
+    "https://github.com/continue-revolution/sd-webui-animatediff.git"
+    "https://github.com/Mikubill/sd-webui-controlnet"
+    "https://github.com/harukei-tech/sd-webui-extended-style-saver.git"
+    "https://github.com/cheald/sd-webui-loractl.git"
+    "https://github.com/Gourieff/sd-webui-reactor.git"
     "https://github.com/Bing-su/adetailer.git"
 )
 
 CHECKPOINT_MODELS=(
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     "https://huggingface.co/SG161222/RealVisXL_V4.0/resolve/main/RealVisXL_V4.0.safetensors"
+    "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
     "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
     "https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3.safetensors"
     "https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3-inpainting.safetensors"
     "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6.safetensors"
     "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6-inpainting.safetensors"
+    "https://huggingface.co/OzzyGT/RealVisXL_V4.0_inpainting/resolve/main/text_encoder_2/model.fp16.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 )
 
 LORA_MODELS=(
+    "https://huggingface.co/XpucT/Loras/resolve/main/LowRA_v2.safetensors"
     #"https://civitai.com/api/download/models/16576"
 )
 
