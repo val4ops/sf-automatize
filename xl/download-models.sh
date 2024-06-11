@@ -112,7 +112,7 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/lllyasviel/ControlNet-v1-1/blob/main/control_v11p_sd15_openpose.pth"
+    "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth?download=true"
     "https://huggingface.co/lllyasviel/control_v11f1p_sd15_depth/raw/main/diffusion_pytorch_model.fp16.safetensors"
     "https://huggingface.co/lllyasviel/control_v11f1p_sd15_depth/raw/main/diffusion_pytorch_model.safetensors"
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_full.safetensors"
