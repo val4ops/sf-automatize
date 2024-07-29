@@ -75,7 +75,6 @@ EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
     "https://github.com/harukei-tech/sd-webui-extended-style-saver.git"
     "https://github.com/cheald/sd-webui-loractl.git"
-    "https://github.com/Gourieff/sd-webui-reactor.git"
     "https://github.com/Bing-su/adetailer.git"
 )
 
