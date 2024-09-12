@@ -88,6 +88,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3.safetensors"
     #"https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3-inpainting.safetensors"
     "https://huggingface.co/moiu2998/mymo/resolve/3c3093fa083909be34a10714c93874ce5c9dabc4/realisticVisionV60B1_v51VAE.safetensors"
+    "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6%20(SFW).safetensors"
     #"https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6.safetensors"
     #"https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6-inpainting.safetensors"
     #"https://huggingface.co/OzzyGT/RealVisXL_V4.0_inpainting/resolve/main/text_encoder_2/model.fp16.safetensors"
