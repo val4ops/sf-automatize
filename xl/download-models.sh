@@ -87,6 +87,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors"
     #"https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3.safetensors"
     #"https://huggingface.co/XpucT/Reliberate/resolve/main/Reliberate_v3-inpainting.safetensors"
+    "https://civitai.com/api/download/models/782002?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://huggingface.co/moiu2998/mymo/resolve/3c3093fa083909be34a10714c93874ce5c9dabc4/realisticVisionV60B1_v51VAE.safetensors"
     "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6%20(SFW).safetensors"
     #"https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v6.safetensors"
@@ -99,7 +100,7 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     "https://huggingface.co/XpucT/Loras/resolve/main/LowRA_v2.safetensors"
-    #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/364137?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
